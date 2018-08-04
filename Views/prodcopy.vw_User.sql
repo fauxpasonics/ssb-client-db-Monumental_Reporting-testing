@@ -1,0 +1,9 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+
+CREATE VIEW [prodcopy].[vw_User]
+AS 
+SELECT * FROM prodcopy.[User] WHERE IsActive = 1
+GO
